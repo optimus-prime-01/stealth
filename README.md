@@ -1,6 +1,27 @@
-# React + Vite
+### Stealth Startup  
 
-Frontend and backend both are ready separately.Integration has not been done yet.
+The frontend and backend are ready but integration is pending. Follow the steps below to run them individually:  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+#### Frontend  
+1. Install dependencies:  
+   ```bash  
+   npm install  
+   ```  
+2. Start the development server:  
+   ```bash  
+   npm run dev  
+   ```  
+
+#### Backend  
+1. Navigate to the `agent` folder:  
+   ```bash  
+   cd agent  
+   ```  
+2. Install dependencies:  
+   ```bash  
+   npm install  
+   ```  
+3. Start the backend server:  
+   ```bash  
+   node agent.js  
+   ```  
