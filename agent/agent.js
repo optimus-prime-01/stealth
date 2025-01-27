@@ -92,8 +92,8 @@
 // const app = express();
 // const upload = multer({ dest: 'uploads/' });
 
-// // API Key - REPLACE with your actual key
-// const GEMINI_API_KEY = 'AIzaSyDd4F6VGSmIXmigfdxn-xZSE3zxrk1k5G0';
+
+// const GEMINI_API_KEY = 'key';
 
 // app.post('/analyze', upload.single('file'), async (req, res) => {
 //     try {
@@ -244,7 +244,7 @@
 // const app = express();
 // const upload = multer({ dest: 'uploads/' });
 
-// const GEMINI_API_KEY = 'AIzaSyDd4F6VGSmIXmigfdxn-xZSE3zxrk1k5G0';
+// const GEMINI_API_KEY = 'key';
 
 // app.post('/analyze', upload.single('file'), async (req, res) => {
 //     try {
@@ -415,7 +415,7 @@ function readCSV(filePath) {
 // const app = express();
 const upload = multer({ dest: 'uploads/' });
 
-const GEMINI_API_KEY = process.env.GEMINI_API_KEY || 'AIzaSyBYQ4UGgteySBp25vJ4PuOsr6NMYi4ZDQM';
+const GEMINI_API_KEY = process.env.GEMINI_API_KEY || 'key';
 
 app.post('/analyze', upload.single('file'), async (req, res) => {
     try {
